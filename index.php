@@ -232,6 +232,9 @@
       </section>
 
       <!--Share-main-section-->
+	  <?php
+			echo "hellow";
+	  ?>
 
       <section id="explore-main-section" class="py-5 bg-light text-dark">
         <div class="container">
