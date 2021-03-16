@@ -106,6 +106,10 @@
     </section>
 
     <!--Explore-section-->
+	
+	<?php
+		echo "Hellow";
+	?>
 
     <section id="explore-section" class="py-5 text-center">
       <div class="container">
