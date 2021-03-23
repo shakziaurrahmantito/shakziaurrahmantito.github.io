@@ -1,0 +1,33 @@
+body{}
+.navbar{
+  background: #000 !important;
+}
+.nav-item{
+  font-size: 1.1rem;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+#type{
+  min-height: 250px;
+  margin-top: 59px;
+}
+
+#photos img{
+  min-height: 300px;
+}
+
+@media(max-width:360px){
+  #photos h2{
+    font-size: 25px;
+  }
+
+  #contact h2{
+    font-size: 25px;
+  }
+
+  #contact h4{
+    font-size: 16px;
+  }
+
+}

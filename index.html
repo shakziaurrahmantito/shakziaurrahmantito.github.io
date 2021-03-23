@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shrotcut icon" href="img/m.jpg">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/navbar-fixed.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Persoanl</title>
+  </head>
+  <body>
+
+  <!--Navbar-->
+
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+    <div class="container">
+
+      <a href="#type" class="navbar-brand">
+        <img src="img/icon.png" height="30" width="30" class="img-fluid" alt="logo">
+        <h5 class="d-inline align-middle">Shak Ziaur Rahman</h5>
+      </a>
+
+      <button class="navbar-toggler navbar-toggler-right" data-target="#myNav" data-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+      <div class="navbar-collapse collapse" id="myNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#type">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#photos">Photos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Type-->
+
+  <section id="type" class="py-5 text-center bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+              <h2 class="mt-5 pt-4">Hi! I'm <span class="text-warning" id="typetext"></span></h2>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--Photos-->
+
+  <section id="photos" class="py-5 text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="mb-5">My Photos</h2>
+          </div>
+        </div>
+        <div>
+        <div uk-lightbox>
+          <div class="row">
+              <div class="col-md-4 mb-4">
+                <a href="img/pic (1).jpg">
+                  <img src="img/pic (1).jpg" class="img-fluid rounded" alt="Image-1">
+                </a>
+              </div>
+              <div class="col-md-4 mb-4">
+                <a href="img/pic (2).jpg">
+                  <img src="img/pic (2).jpg" class="img-fluid rounded" alt="Image-2">
+                </a>
+              </div>
+              <div class="col-md-4 mb-4">
+                <a href="img/pic (3).jpg">
+                  <img src="img/pic (3).jpg" class="img-fluid rounded" alt="Image-3">
+                </a>
+              </div>
+              <div class="col-md-4 mb-4">
+                <a href="img/pic (4).jpg">
+                  <img src="img/pic (4).jpg" class="img-fluid rounded" alt="Image-4">
+                </a>
+              </div>
+              <div class="col-md-4 mb-4">
+                <a href="img/pic (5).jpg">
+                  <img src="img/pic (5).jpg" class="img-fluid rounded" alt="Image-5">
+                </a>
+              </div>
+              <div class="col-md-4 mb-4">
+                <a href="img/pic (6).jpg">
+                  <img src="img/pic (6).jpg" class="img-fluid rounded" alt="Image-6">
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--Contact-->
+
+  <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+              <h2 class="mb-5">Contact Us</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 my-2 col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h4 class="my-4 text-center">Please fill out this form to contact us</h4>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" name="firstName" class="form-control" placeholder="First Name">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" name="lastName" class="form-control" placeholder="Last Name">
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" name="email" class="form-control" placeholder="Email">
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea name="message" class="form-control" placeholder="Message" rows="5"></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <input type="submit" class="btn btn-dark btn-block" value="Submit">
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 my-2 col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <h4>Geting Toutch</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, consequuntur.</p>
+
+                <h4>Address</h4>
+                <p>House #100, Delua Bazar Road, Saturia, Manikganj.</p>
+
+                <h4>Email</h4>
+                <p>shakziaurrahmantito@gmail.com</p>
+
+                <h4>Phone</h4>
+                <p class="mb-2">+8801798-659666</p>
+                <p>+8801642-941816</p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+  <!--Footer-->
+
+  <section id="footer" class="py-2 text-center bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+              <p class="my-2">Copyright &copy; By Shak Ziaur Rahman Tito</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/navbar-fixed.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+
+  <script src="js/typed.min.js"></script>
+  <script>
+      new Typed('#typetext',{
+        strings : [
+          'Md. Ziaur Rahman',
+          'a PHP Programmer',
+          'a Web Designer',
+          'a JavaScript Certifier',
+          'a SQL Builder'
+        ],
+        backSpeed : 60,
+        typeSpeed : 60,
+        loop : true
+      });
+  </script>
+  </body>
+</html>
